@@ -1,0 +1,84 @@
+/*
+* include padding in elements total
+* width and height
+*/
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding:10px;
+	background: #f1f1f1
+}
+
+.header {
+	background-color: f1f1f1;
+	padding: 20px;
+	text-align: center;
+} 
+
+.header h1 {
+	font-size: 50px;	
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333
+}
+
+.topnav a {
+		float: left;
+		display: black;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+}
+
+.topnav a:hover {
+	backgroud-color: #dd;
+	color: black;
+}
+
+.leftcolum {
+	float: left;
+	width: 25%;
+}
+
+.left2colum {
+	float: left;
+	width: 25%;
+}
+
+.rightcolum {
+	float: left;
+	width: 50%;
+}
+
+.image {
+	background-image: url(GROWNLUCAS.jpg);
+	width:768px; 
+	hieght:1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fakeing {
+	backgroud-color: #aaa;
+	padding: 20px;
+	width: 100%;
+}
+
+.card {
+	backgroud-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.rowafter {
+	content: "";
+	display: table;
+	clear: both;
+}
+
